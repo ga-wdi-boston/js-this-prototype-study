@@ -20,6 +20,8 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
+This is a clean way to refrence and object.  It is a shortcut instead of repeating yourself.  The JavaScrit is sexy article was very helpful in understanding this.
+
 ```md
 <!-- your answer here -->
 ```
@@ -29,14 +31,14 @@ sure to cite any relevant sources you consulted in your search.
 In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
-```md
-<!-- your answer here -->
+This is like a pronoun in the english language.  It is refering to an object.  This can be very tricky to use.  The context that it is used in is key to determining how it funtions.  Having a clear understanding of the context is very important to using it correctly.  Again the Javascript is sexy blog was very helpful for this determination.
 ```
 
 ## A Prototype is what
 
-In your own words explain what a prototype is.  In your answer, be
-sure to cite any relevant sources you consulted in your search.
+A prototype is like a family tree.  It allows you to pass along info to funtions for later use.
+
+JavaScript is sexy was a good source for explaining this concept.
 
 ```md
 <!-- your answer here -->
