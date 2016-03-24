@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this. refers to object that you're 'in'. If there is an object "Apple" and I want to call a function on this object, I can refer to "this."" instead of "apple"
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this is a referral mechanism.  this allows you to call & pass methods and objects.
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a kind of sub-class.  It enables inheritance.
 ```
