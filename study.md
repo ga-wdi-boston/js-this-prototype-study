@@ -21,8 +21,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+we use the 'this' to be precise in referring to a property, object (methods) of a function.
+wd3school | Youtube```
 
 ## This is what
 
@@ -30,8 +30,8 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+this a keyword that gives that gives you a shortcut to naming an object to make your code
+less ambiguous. wd3school | youtube | developer```
 
 ## A Prototype is what
 
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+Prototype is a property that adds specialized (methods) to your objects in a function.
+YouTube```
