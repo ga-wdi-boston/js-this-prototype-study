@@ -21,7 +21,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+we use 'this' to make our code more precise and unambiguous.
+source: JSIS: This
 ```
 
 ## This is what
@@ -30,7 +31,8 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this is a pointer that identifies that object being targeted or worked on
+resource: stackoverflow and JSIS
 ```
 
 ## A Prototype is what
@@ -39,5 +41,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype are properties and methods that all objects inherit from.
+Resource w3schools
 ```
