@@ -43,5 +43,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-A prototype is a JavaScript object. It lets you implement inheritance- assigning properties to the prototype property in a function passes those properties to objects created in that function.   
+A prototype is a JavaScript object. It lets you implement inheritance- assigning properties to the prototype property in a function passes those properties to objects created in that function.
+(Sources:
+http://www.w3schools.com/js/js_object_prototypes.asp
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+)
 ```
