@@ -21,7 +21,12 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+- cleaner code
+- less code
+- reuasable (you don't need to change everything)
+- time saver
+
+source: https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
 
 ## This is what
@@ -30,7 +35,10 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+- this refers to the "thing", it is in. Mostly an object and poits to that object,instead of using the var name of the object
+you can use "this"
+
+source: https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
 
 ## A Prototype is what
