@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"This" can be used to avoid redudancy.
+
+(via javascriptissexy)
 ```
 
 ## This is what
@@ -30,8 +32,11 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"This" changes depending on the context in which it is called. If it is called
+outside of a function, it refers to the global object (or undefined if javascript is in strict mode). If it is a part of a method,it refers to the object the method is called on (even if it was originally part of a prototype and inherited).
 ```
+
+(via MDN: This)
 
 ## A Prototype is what
 
@@ -39,5 +44,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototypes are bundles of methods and properties that objects inherit. Objects
+can inherit multiple prototypes in a chain (if a prototype they have inherited
+has inherited prototypes of something else). All objects inherit the object prototype.
+
+via javascriptissexy and Google
 ```
