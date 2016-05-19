@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use this to avoid having to write the object over and over. Just like we use pronouns in the english language.I used the readings and google
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use this inside functions to manipulate the object.
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Every object has a prototype.Prototypes assign what kind of property something has. It allows youto assign certain atributes and also learn where those attributes came from if they are used by something else as well
 ```
