@@ -21,7 +21,37 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Utilizing "this" is beneficial insofar as it allows a developer to save time.
+For instance, imagine having the following object:
+
+let myCar2 = {
+  maxSpeed : 70;
+  driver : "Net Ninja";
+  drive: function (speed, time) {
+    console.log(speed * time);
+  },
+  test : function () {
+    console.log(this)
+  }
+};
+
+And suppose you had several copies of the object:
+let myCar3 =
+  maxSpeed : 70;
+  driver : "Net Ninja";
+  drive: function (speed, time) {
+    console.log(speed * time);
+  },
+  test : function () {
+    console.log(this)
+  }
+}
+
+In every instance where "this" appears, you would have had to otherwise write
+console.log(myCar2)
+console.log(myCar3)
+
+https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
 
 ## This is what
@@ -30,7 +60,13 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The "this" keyword refers to whatever object currently owns the space (context)
+that utilizes "this". And simply going by the MDN article on "this" it seems
+like the keyword operates in several different contexts (e.g. global and function).
+Not only does the contextual environment affect "this" but also how it is invoked
+can return different evaluations, which then becomes important to implement
+different methods (e.g. apply, bind and call).
+
 ```
 
 ## A Prototype is what
@@ -39,5 +75,10 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is a fundamental concept of the Javascript language itself in respect to objects.
+Because Javascript is a prototype-based language, every object has a prototype.
+You can add properties and methods to the object's prototype property, and those
+properties and methods will be inherited in all the instances of that particular
+object.
+http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 ```
