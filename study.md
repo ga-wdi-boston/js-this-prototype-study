@@ -25,6 +25,7 @@ sure to cite any relevant sources you consulted in your search.
 - less code
 - reuasable (you don't need to change everything)
 - time saver
+- necessary for prototypes
 
 source: https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
@@ -35,8 +36,8 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-- this refers to the "thing", it is in. Mostly an object and poits to that object,instead of using the var name of the object
-you can use "this"
+- this refers to the "thing", that is usually an object. Instead of using the var name of the object
+you can use "this", its used in a function or a method inside of an object.
 
 source: https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
@@ -47,5 +48,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+-  A prototype allows to inheret attributes and functions from a parent function to another one.
+
+source: http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
