@@ -1,4 +1,4 @@
-# This and Prototype Study
+1# This and Prototype Study
 
 Use your favorite search engine and the provided readings to research and
 respond to the following questions.
@@ -21,8 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
 ```
+One reason to use this is because it cannot be reversed in global code.
+Source: JSissexy.com
 
 ## This is what
 
@@ -30,14 +31,19 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
 ```
-
+This is a keyword that serves as a shortcut, whose value can change given the context.
+In general, this is the value of the object that invokes the function where this
+is used.
+SOURCE: JSissexy.com
 ## A Prototype is what
 
 In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
 ```
+A prototype is an object that gives it's characterists to another object.
+Conversely, all objects have prototypes and the objects get their characteristics
+from prototypes. A function has a set prototype of ().
+Source: JSissexy, W3schools (my bad)
