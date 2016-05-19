@@ -58,9 +58,11 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-A prototype is like a class in some other languages. It is an Object definition
-that will likely be used, or instantiated, many times. For example, in a
-war simulation, you might have a prototype soldier, with various attributes
+A prototype is like a class in some other languages, but it is defined
+for functions, which are Objects, rather than specifically on new things called
+classes. A prototype is is an Object definition that will likely be used,
+or instantiated, many times. For example, in a war simulation,
+you might have a prototype soldier, with various attributes
 and methods. Then you can instantiate that soldier many times to build up armies
 of entities who all have those attributes and methods, and are yet distinct.
 
