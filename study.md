@@ -21,16 +21,25 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+According to JavaScript.isSexy, this is a convenient shorthand, especially for calling methods on the object that this refers to. However, there are some
+situations where the referent of this can switch unexpectedly; being aware of
+any potential pitfalls is important.
 ```
 
 ## This is what
 
-In your own words give explain "this".  In your answer, be
-sure to cite any relevant sources you consulted in your search.
-
 ```md
-<!-- your answer here -->
+Again citing JavaScript.isSexy, this is a property that refers to the object
+that this is assigned to. For example, when assigning:
+
+let obj = {
+  a: 1,
+  b: 2,
+  c: 3
+}
+
+along with the properties a, b and c, JavaScript also assigns a property this
+as a variable that refers to obj.
 ```
 
 ## A Prototype is what
@@ -39,5 +48,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+While prototype is a property of any object in JavaScript that begins as
+undefined, on a conceptual level it is an attribute or attributes of any object inherited from their parent objects. For example, all objects created in
+JavaScript inherit properties and methods, such as constructor and HasOwnProperty(), from the Object.prototype naturally. JavaScript.isSexy proved
+the most useful resource for this information yet again.
 ```
