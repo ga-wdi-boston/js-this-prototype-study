@@ -59,5 +59,21 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype in JavasScript is an object assigned to a parent object, which can be inherited whenever there is an instance of the parent object is called. The prototype contains a set of values {properties}, which can be adjusted and reassigned and refers back to the parent object. Subsequent objects after the parent object can inherit methods and properties assigned to the prototype. For example, if we have the following:
+
+let parent = {
+  key : 'value'
+};
+
+let new = {};
+
+If we assign 'parent' as the protoype of 'new', 'new' now contains the properties of
+'parent', so if you call 'new.key', 'value' is returned even though 'key : value' was
+never explicitly assigned to 'new'. Thus, if a later object is equal to 'new', it will
+also inherit the properties of the prototype, or the object 'parent'.
+
+Sources:
+http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+
 ```
