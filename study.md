@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use it to refer to the global object.  MDN
 ```
 
 ## This is what
@@ -30,7 +30,8 @@ In your own words give explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this can have multiple uses, generally used for pointing to the
+parent object or function  MDN
 ```
 
 ## A Prototype is what
@@ -39,5 +40,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+  prototype is a property of all functions that allows you to attach methods and
+  porperties to a function primarily for inheratance
 ```
