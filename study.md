@@ -25,9 +25,15 @@ sure to cite any relevant sources you consulted in your search.
 for me is that if you are defining an Object method, `this` refers to the
 object you are in, or the instance of the object if you are in a prototype,
 so you can use `this.value` to access another attribute or method of the
-Object you are in.
+Object you are in. It is important because when we define the function, we
+may not know the name of the Object that will ultimately be calling it.
 
-I mostly just knew this from reading online, but the first link above helped.
+Another reason we use `this` is that it refers unambiguously to the present
+context. It will not reference a global variable outside of this context
+that happens to have the same name.
+
+I mostly just knew this from reading online, but the first and
+second links above helped, especially with the second reason I wrote.
 ```
 
 ## This is what
