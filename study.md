@@ -26,7 +26,7 @@ sure to cite any relevant sources you consulted in your search.
 
 ## This is what
 
-In your own words give explain "this".  In your answer, be
+In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
