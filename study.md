@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-If we want to refer to an object that is bounded to the function that uses "this".
+One of the reason we use "this" keyword is when we want to refer to an object that is bounded to the function that uses "this".
+
+It holds a value of an object, but that value is only assigned when that object invokes the function that uses "this". That object that invokes the function is called  the "context".
 
 Resource: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 
