@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We want to remove any risk that a property other than what we wanted, such as a object property, method or another function, will be called by using the same variable name.  http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 ```
 
 ## This is what
@@ -30,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is a keyword that signifies using a property whose value is determined within any current object.  This can be used in a function outside of an object that is then called within an object, or used as a method in a property and then used in a different property of that object or even another object, and the keyword will signify the new object.
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+(http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## A Prototype is what
@@ -39,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a keyword signifying a set of a number of global parameters or attributes that will affect all the other functions or objects within that scope. Prototype properties are used for inheritance within functions, and prototype attributes are used as parameters within objects.
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+http://javascript-roadtrip-part3.codeschool.com/levels/5 
 ```
