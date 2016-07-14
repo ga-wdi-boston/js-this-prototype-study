@@ -21,8 +21,11 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+For instance, if we use 'this' in a function, when we executes object.functionName(),
+'this' will get the object and its value. so it is easy to change the object of a function.
 ```
+[JSIS:
+This](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 
 ## This is what
 
@@ -30,7 +33,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is like a placeholder. it can be replaced by different object that you want to use to executes a function.
 ```
 
 ## A Prototype is what
@@ -39,5 +42,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is like a default property of an object. You can use it to access the object.
 ```
