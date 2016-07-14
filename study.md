@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+From what I have been reading with the articles assigned; "this" is used as a
+pointer.  If there is an object which contains a method, "this" will hold the
+value of that object; making it a more unambiguous way of pointing at something.
 ```
 
 ## This is what
