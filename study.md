@@ -32,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+I'm not certain how to exactly to explain "this".  Even after the readings, I
+feel like I still don't have a complete understanding (Besides what I stated
+in the answer above).
 ```
 
 ## A Prototype is what
@@ -41,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+I like to think of prototype as an additional warehouse.  What I mean is that
+when we create a function, we can store properties and methods within a prototype
+that will be accessed anywhere that functioned is called.
 ```
