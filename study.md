@@ -20,8 +20,12 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
+
+
 ```md
-<!-- your answer here -->
+We use this in functions. As a precaution in case their may be a global variable
+with the same name, using this is a way of making the code less vague, and more
+ concise, by pointing directly to the key and correlating value.
 ```
 
 ## This is what
@@ -30,8 +34,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+This is usually used inside of a function or a method, it is typically used
+referring to the value an object has previously been declared as.
 
 ## A Prototype is what
 
@@ -39,5 +44,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+The propery makes all inhertance possible. By attaching the prototype property to
+a funtion, it will then gain whatever properties and methods were attached.
+
+
 ```
