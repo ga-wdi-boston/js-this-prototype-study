@@ -21,7 +21,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'This' allows for code to be neater and can also make functions reusable. This
+will change depending on how and where the function is called.
 ```
 
 ## This is what
@@ -30,7 +31,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'This' works similar to pronouns in everyday speech. It calls back the object which
+was previously defined. If it's not used in a function, 'this' refers to the document.
 ```
 
 ## A Prototype is what
@@ -39,5 +41,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+prototypes are like the parents of any object. Every object has a protype
+which it is given and inherits from however you can set a new protype for
+any object. 
 ```
