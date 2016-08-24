@@ -21,7 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason to use "this" is to avoid having to repeatedly type and refer to an object and its property every time you want to call it after a change has been made to the declared object and property value.
+
+used sources: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it and
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 ```
 
 ## This is what
@@ -30,7 +33,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+
+
 ```
 
 ## A Prototype is what
