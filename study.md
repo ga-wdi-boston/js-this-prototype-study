@@ -21,17 +21,23 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+We use "this" in a function not using 'use strict'in order to refference the value of
+the the global object.
 
+[I used MDN:This]
+
+-->
+```
 ## This is what
 
 In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a useful keyword/shortcut that is able to reference the object that
+you are currently in.
 ```
+[I used JSIS: This]
 
 ## A Prototype is what
 
@@ -39,5 +45,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+
+```A prototype is a  way for a constructor functon to pass inheritance.
