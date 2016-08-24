@@ -33,7 +33,12 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
+This has different meanings depending on how and where it is used. In a function, this can refer to the object and property that you have just previously declared and defined. if you change those properties, this will change along with it when the function is run. If this is used outside of a function, it can take on a different meaning and refer to variables that may or may not be in your control. This can help you specify which variables you mean to use.
 
+used sources:
+http://stackoverflow.com/questions/4195970/what-does-this-mean
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it and
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
 ```
 
