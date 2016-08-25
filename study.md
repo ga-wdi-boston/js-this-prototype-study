@@ -43,5 +43,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype in JavaScript is something that all functions have as a property, and all objects have as an attribute. Prototype is what drives inheritance in JavaScript. An object's prototype tells you what its parent object is. A function's prototype tells you what will be inherited any time that function is used. When we ask an object for the value of one of its attributes and it doesn't have its own version of that attribute, it goes up the 'prototype chain', parent by parent, until it finds one (or runs out of parents).
 ```
