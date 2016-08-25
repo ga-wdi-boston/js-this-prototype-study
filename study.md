@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" can be used to reference or call a function earlier defined, as long as it part of that function's expression. 'this' will always refer to an object within the same fucntion, unless used globally, in which case it refers to the global object`[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this]
 ```
 
 ## This is what
@@ -30,8 +30,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+'this' is a certain type of code shorthand, and is used to describe an object or used earlier in a function in a way the helps to make the code clearer. [http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/]
+``
 
 ## A Prototype is what
 
@@ -39,5 +39,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It sounds like the 'prototype' is like an pre-existing characteristic of an object in an expression. (honestly idk, the reading refers to constructors and
+inheritance frequently, which we haven't gone over) [http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/]
 ```
