@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The main reason why we use "this" is as a shortcut; it references an object (usually within a function or method) that has already been defined in the code that we are rendering, allowing us to invoke it without redundancy and with more clarity and precision. The object that "this" refers to can change depending on the context or method that it is used in.
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+In its simplest form, "this" is a variable of an object that has previously been defined in a function where "this" is used. However, a value is not assigned to "this" until an object invokes the function where you defined "this".
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Above all, we us the prototype attribute to execute two imporant things: First, it allows us to establish properties and methods that we want to implement through inheritance. Unlike most scripting languages, JavaScript does not have classical inheritance; thus we implement inheritance in JS through the prototype property. A prototype allows us to create a function and add attributes and methods to the function, and said function will inherit all of the established attributes and methods in all future instances. Second, the prototype attribute is crucial for accessing properties and methods of objects. If you want to invoke the property of an object, JS runtime will search for it directly on the object. If it cannot find it there, JS will look for the object it inherited it's properties from - I.E. the object's prototype. If the object is still not found, JS will then move to the prototype of the object's prototype - and so on and so on - continuing until there are no more prototypes to follow.
 ```
