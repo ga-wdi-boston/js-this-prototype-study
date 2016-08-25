@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Using "this" to refer to an object is a shortcut. This way we don't need always retype the objects name to refer to it.
+
+I used the readings provided.
 ```
 
 ## This is what
@@ -30,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a key in an object. It can either default to the global object or can be set when a function is called.
+
+I used the readings provided.
 ```
 
 ## A Prototype is what
@@ -39,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is attached to every object. It can be either defined or undefined. Its is used so that objects can inherit certain properties or functions.
+
+I used the readings provided.
 ```
