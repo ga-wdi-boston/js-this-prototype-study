@@ -21,7 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason to use "this" is to avoid having to repeatedly type and refer to an object and its property every time you want to call it after a change has been made to the declared object and property value.
+
+used sources: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it and
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 ```
 
 ## This is what
@@ -30,7 +33,13 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This has different meanings depending on how and where it is used. In a function, this can refer to the object and property that you have just previously declared and defined. if you change those properties, this will change along with it when the function is run. If this is used outside of a function, it can take on a different meaning and refer to variables that may or may not be in your control. This can help you specify which variables you mean to use.
+
+used sources:
+http://stackoverflow.com/questions/4195970/what-does-this-mean
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it and
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+
 ```
 
 ## A Prototype is what
@@ -39,5 +48,10 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a built-in (to Javascript) parent object and property that does not have a value, but allows you to create new objects (and thus new properties and methods) off of it, and then reuse those new objects/properties/methods in a newly created object down the line (aka inheritance). Without the prototype, you would not be able to reuse the properties and methods that you created.
+
+used sources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+https://en.wikipedia.org/wiki/Prototype-based_programming
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
