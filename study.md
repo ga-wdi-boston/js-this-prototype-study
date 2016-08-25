@@ -28,7 +28,8 @@ object may or may not even have a name (apparently some functions are
 that our function has the flexibility to work as intended in a variety of
 contexts.
 
-The JSIS article "Understand JavaScript's "this" with Clarity, and Master It" was a very helpful source in writing this response.
+The JSIS article "Understand JavaScript's "this" with Clarity, and Master It"
+was a very helpful source in writing this response.
 ```
 
 ## This is what
@@ -64,4 +65,9 @@ function's prototype tells you what will be inherited any time that function is
 used. When we ask an object for the value of one of its attributes and it
 doesn't have its own version of that attribute, it goes up the 'prototype
 chain', parent by parent, until it finds one (or runs out of parents).
+
+The JSIS article "JavaScript Prototype in Plain Language" was very helpful in
+writing this response. For contrast, I was also continually referring back to
+my understanding of inheritance via classes in Java, which I began learning in a
+previous class.
 ```
