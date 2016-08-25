@@ -48,5 +48,10 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a built-in (to Javascript) parent object and property that does not have a value, but allows you to create new objects (and thus new properties and methods) off of it, and then reuse those new objects/properties/methods in a newly created object down the line (aka inheritance). Without the prototype, you would not be able to reuse the properties and methods that you created.
+
+used sources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+https://en.wikipedia.org/wiki/Prototype-based_programming
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
