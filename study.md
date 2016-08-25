@@ -21,7 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason to use 'this' is it will save time when your are writing functions similar to the way using pronouns saves
+time while writing English (analogy from JS is sexy).  If you want to write a function that could be used on many
+variables, you don't want to have to specifically name the particalar variable each time and write essentially the same
+function over and over again.  There are several examples from the 'this' write up from Mozilla.
 ```
 
 ## This is what
@@ -30,7 +33,12 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"This" is a JavaScript keyword that acts as a referent and holds the value of an object. It is essentially the pronoun
+of the JavaScript language.
+
+Source - Javascript is Sexy
+
+
 ```
 
 ## A Prototype is what
@@ -39,5 +47,10 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype can be both a property of a function and the attribute of an object. They help tell us where objects and
+functions inherit their characteristics from. One way prototypes help us do less work is by automatically keeping
+methods and properties of functions attached to later instances of a function.  Another way prototypes are helpful is
+telling us where objects inherit their properties from.
+
+Source - Javascript is Sexy
 ```
