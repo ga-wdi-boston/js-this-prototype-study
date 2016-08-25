@@ -21,11 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-I learned that we use 'this' as a shortcut to refer to an object. In this way, it
-can executive the object's code. This is important so our code remains clean and
-unambiguous, as well as to prevent debuging errors in the future. Among the three
-links, the most helpful one to me in order to answer this question, was the
-javascriptissexy one: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+<!-- your answer here -->
 ```
 
 ## This is what
@@ -34,12 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-This is a referent of an object used inside a function or a mentjhod, or outside
-a function in the global scope. If used in strict mode, it is undefined for global
-functions. Also, 'this' has an unassigned value until an object invokes the function
-function where 'this' is defined. The most helpful link in order to answer this
-question, was the javascriptissexy one: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
-
+<!-- your answer here -->
 ```
 
 ## A Prototype is what
@@ -48,11 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-There are 2 concepts with prototype in JavaScript: Prototype property refers to
-when a variable defined in a function is implemented with inheritance by adding
-methods and properties on a function's protoptype property, in order to make
-them ready for that specific function. Secondly, the prototype attribute/object
-is all about 'lineage': every object receives properties and methods from some
-other object (its parent).
-
+<!-- your answer here -->
 ```
