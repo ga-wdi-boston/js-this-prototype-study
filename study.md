@@ -21,23 +21,60 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+this can be used to refer to keys or methods inside the object to which it is
+bound.
 
+For example:
+
+let neptune = {
+  species: "cat",
+  sex: "male",
+  color: "gray",
+  sound: "meow",
+  makeSound: function(){
+    return this.sound;
+  }
+}
+
+I do not need to write return neptune.sound because the method is inside the
+object and it is just not necessary.
+```
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 ## This is what
 
 In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this is effectively a prounoun
+in JavaScript world and it makes the code easier to read and less
+cumbersome. To call a method from outside the object,
+however, I would have to use the object name when calling the method.
 ```
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 
 ## A Prototype is what
 
 In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
-
 ```md
-<!-- your answer here -->
+prototype is used for inheritance of properties and methods in constructor
+objects. It also allows other objects to inherit it.
+Here's an example (once again, with cat fails):
+
+function CatFail(shriek){
+	this.fail = shriek;
+}
+
+CatFail.prototype.epicFail = function(){
+	console.log(this.fail);
+};
+
+let neptuneFail = new CatFail("MrrrreeeeOOOOW!");
+
+neptuneFail.epicFail();
+
+neptuneFail has inherited from CatFail, and so it can call the epicFail method.
 ```
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
