@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The "this" can be used in a similar to the way pronouns are used, and thus helps to simplify the language used to code and limits repetition. (added for my own benefit: Because "this" can only be used in relation to an object that the function (when used) is bound to, this adds precision as well, as it can't be overriden with a global variable of the same name).
+
+Utilized JSIS: This (http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## This is what
@@ -30,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a keyword that refers to a current object and also contains the value of the object. "this" is, in essence, a shortcut that can be used to refer back to the current object within context since "this" doesn't have an assigned value until the object invokes the function where "this" is defined.
+
+Utilized JSIS: This (http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## A Prototype is what
@@ -39,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is a property (a variable can defined on a function) for functions that you can attach properties and methods to. Doing so allows you to implement inheritance, when you can then add methods and properties on a function’s prototype property to make those methods and properties available to instances of that function. Prototype is also an attribute that will point to the object another object inherited its properties from. Prototype, generally, shows the properties of an object or shows its parent object thus making it available to access.
 ```
+Utilized JSIS: Prototype (http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+Utilized http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
