@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use this as a sort of place holder which saves us enormous amounts of time and allows for things such as inheritence and object construction. It makes for less, more percise code.
+(Sources = The three readings and what I can recall from codeacademy lessons.)
+
 ```
 
 ## This is what
@@ -30,7 +32,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This acts as a place holder for an object. It allows for specific assignment of different attributes and helps facilitate things such as inheritence.
+(Same sources)
 ```
 
 ## A Prototype is what
@@ -39,5 +42,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a way in which to apply methods and attributes to object constructors higher in the constructor chain. It allows for altering the way inheritence works with each invokation of .prototype and allows for the creation of custom methods.
+(Same sources)
 ```
