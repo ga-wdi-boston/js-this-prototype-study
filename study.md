@@ -21,8 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The "this" keyword provides avoidance of repetition, speficity in calling objects, and saftey from breaking code when varaibles might change. The pronoun example was quite helpful.
 ```
+https://www.youtube.com/watch?v=URVdQG96MUw
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 
 ## This is what
 
@@ -30,7 +32,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The "this" keyword reffers to whatever object owns the space that the keyword is currently in.
 ```
 
 ## A Prototype is what
@@ -39,5 +41,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A sort of "parent" defineition for a big picture function. If a program has a tree of of defintions, prototypes sit at the top.
 ```
