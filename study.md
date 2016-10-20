@@ -21,17 +21,19 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+we use this to name a function in code
+
+used: https://www.sitepoint.com/what-is-this-in-javascript/
 ```
 
 ## This is what
 
-In your own words explain "this".  In your answer, be
-sure to cite any relevant sources you consulted in your search.
+we use this to name any non declared item/object in the code. this can mean many
+things and also be used in functions
 
 ```md
 <!-- your answer here -->
-```
+used: https://www.sitepoint.com/what-is-this-in-javascript/
 
 ## A Prototype is what
 
@@ -39,5 +41,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A Prototype is every property of an object. it is not an object itself but it is
+the main function of every object. Every object has a prototype
 ```
+used: http://www.w3schools.com/js/js_object_prototypes.asp
