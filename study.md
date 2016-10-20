@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is often used to get the value of a property of the object in which it is contained.
+
+Refferenced from the JSIS and MDN 'this' articles
 ```
 
 ## This is what
@@ -30,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is a that references a singular object inside which it is contained and is usually used in an method or function.
+
+Refferenced from the JSIS and MDN 'this' articles
 ```
 
 ## A Prototype is what
@@ -39,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a part of an object that can be modified where to modifications only appear in new objects created as a duplicate of that origonal object.
+
+Refferenced from the JSIS 'prototypes article'
 ```
