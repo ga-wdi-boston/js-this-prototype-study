@@ -20,8 +20,17 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
+
+
 ```md
-<!-- your answer here -->
+'this' always refers to and holds the value of an object, allowing users to access the properties associated with that object by invoking 'this'.
+
+SOURCES:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+http://www.w3schools.com/jsref/obj_window.asp
+https://developer.mozilla.org/en-US/docs/Glossary/Global_object
+
 ```
 
 ## This is what
@@ -30,7 +39,14 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is used to refer to the antecedent of the object in context, much like pronouns in English. 'this' is essentially used as a shortcut to refer back to the object in context.
+
+SOURCES:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+
 ```
 
 ## A Prototype is what
@@ -39,5 +55,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototypes are used to implement inheritance from other objects. We can add methods and properties on a function's prototype in order to make those methods and properties available to future iterations of the function it is associated with.
+
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+http://javascriptissexy.com/javascript-objects-in-detail/
+
 ```
