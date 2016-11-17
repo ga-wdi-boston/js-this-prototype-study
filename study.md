@@ -21,7 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this is used to refer to the object that called it. I am not entirely sure why, but I think one of the reasons may be that if one function calls to another function you can always refer back to the original object that "this" refers to. Also instead of hard coding object in code you can use "this" to create functions that cant determine an object vs writing it in.
+
+The use of this in the global scope
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## This is what
@@ -30,7 +33,11 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a contextual method, that isn't assigned a value, but rather searches the object that invoked it. it then replaced itself with object name. in the example in my reference. I see that every instance of this is reffering to the user object.
+
+Fix this inside closure
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+
 ```
 
 ## A Prototype is what
@@ -39,5 +46,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is an "anonymous" object that makes reference to itself via the "this" method. Because it uses "this" rather than hard coding. It can be used to construct other object with the same key value pairs. It also acts as a default so that if a new object is made with a prototype, but the user does not specify values for a key, the protoype can fill it in with the default. It falls in line ewith DRY practices because you will not be writing the syntax over and over for simillar objects.
+
+fun fun function
+https://www.youtube.com/watch?v=riDVvXZ_Kb4
 ```
