@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+we would use "this" to refer to whatever object was being interacted with.  For example, you could use this to refer to multiple divs that could be clicked on.  The this would then know which div was clicked on to interact with. Like in the memory game.
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It is a shortcut to refer to an object.  For example, you wouldnt say Matt is fast, Matt wants to run.  You would say, Matt is fast, HE wants to run. http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## A Prototype is what
@@ -39,5 +39,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+prototyping is a way of passing properties and methods to another object.
+
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
