@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+to be able to use one method repeatably for various variables - from notes taken in class and w3 You can have one object create many objects of one type without having to lengthen your code with multiple functions/methods
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Javascript is an object oriented programming language and the 'this' keyword refers to the parent function object. This keeps it the same throughout your object.  It refers to an object; that is, the subject in context, or the subject of the code - from JavaScipt is sexy site and w3
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+a preliminary or first stage thing that is then further developed or copied
 ```
