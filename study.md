@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+so we dont have to rewrite code over and over again within the same function. this is faster. used the links provided.
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this is a way to reference an object within the current function if you arent using it globally. its value is assigned based on the object that invokes it and has no value before then. used the links provided.
 ```
 
 ## A Prototype is what
@@ -39,5 +39,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+all js objects have a prototype property set to empty initially with Object.prototype being the highest level of inheritance. it can be used to inherit all of another prototype. you can add a new property to an object by using its name.prototype.newFunctionOrWhatever =
+used the links provided
 ```
