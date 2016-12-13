@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use this to respresent the "owner" or function in the code without having to retype it.
 ```
 
 ## This is what
@@ -30,8 +30,10 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+So that we do not have to continue to write out the function or name of the object and it cleans things up for us.
+
 ```
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
 ## A Prototype is what
 
@@ -39,5 +41,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is similar to the this statment in that it points back to the object that we are using,
+also called the "parent."
+
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
