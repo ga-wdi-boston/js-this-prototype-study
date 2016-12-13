@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use 'this' to refer explicitly to the containing object of a function. It reduces ambiguity and can be used with bind() or apply() when its part of a method being passed to a new context.  I used the JSIS: This link
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+When a function is executed, it gets a 'this' property, which refers to the function's containing object.
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototypes are where all objects inherit methods and properties. All functions have a prototype property. It can be used to ensure that all objects derived from the prototype object start with the same properties and methods. I used the JSIS article and google
 ```
