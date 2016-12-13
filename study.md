@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It can actually be less ambiguous to use 'this' rather than specific variable/property names,
+as there could always be another variable/property elsewhere int he code that you are unaware of.  Using 'this' ensures that you are only referencing the object that invokes the variable/property that
+contains 'this'.  I consulted the beginning of the [JSIS: This] article above.
 ```
 
 ## This is what
@@ -30,7 +32,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"This" refers to the object in which it is invoked. If 'this' is not contained within an object, then it refers to the global 'window' object in JS, or is simply undefined using 'strict' JS. I consulted the [JSIS: This] article above.
 ```
 
 ## A Prototype is what
@@ -39,5 +41,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is an attribute of an object, such that subsequent methods and objects constructed/created or based upon that initial object will inherit that prototype.  I consulted the [JSIS: Prototype] article above.
 ```
