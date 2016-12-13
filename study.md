@@ -21,7 +21,11 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason we use "this" is to be able to refer to a variable from within the
+variable's code. For instance, how in Javascript Is Sexy's first example, "this.firstName"
+"this" refers to "person" which is the variable the function is within.
+This allows us to not have to use "person" which could be a variable name elsewhere, and
+is more clear that it is referring to the variable the code is within.
 ```
 
 ## This is what
@@ -30,7 +34,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a keyword which refers to the subject of the code. What it references
+depends on context. It is helpful as a shortcut and when used within a variable,
+to clarify that we are referring to the variable the code is within.
 ```
 
 ## A Prototype is what
@@ -39,5 +45,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is a property which allows inheritance. Methods and properties added to
+the prototype property of a function can be accessed when that function is used elsewhere.
+As Mozilla Developer Network's documentation notes, this allows us to create "sub-classes"
+of functions which can access the same property.
 ```
