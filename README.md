@@ -28,6 +28,8 @@ related to [forking,
 cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone), and [pull
 requests](https://github.com/ga-wdi-boston/meta/wiki/PullRequest).
 
+
+
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
