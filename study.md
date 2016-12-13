@@ -21,7 +21,11 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+When used inside a function/object, it is used to clarify specifically which variable is being referred to.
+It has no value until it is assigned (?) one by invoking the object it is referred to.
+
+It works as a pronoun to refer to a variable/function previously declared within the object (or scope?).
+
 ```
 
 ## This is what
@@ -30,7 +34,11 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Still a little confused on this. I think something along the lines of:
+
+If used within a variable, it then refers to that object.
+If it's NOT used within a variable, it then is a 'global' object (such as your browser window).
+
 ```
 
 ## A Prototype is what
@@ -39,5 +47,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+All functions have inherently have prototypes, but by (explicitly?) adding a prototype to a function, if you later create a variable that holds that function, you can attach the properties of the initial function.
+
+I think it basically allows you to create a revised/updated/additional 'new' version of a function, while keeping the properties of the initial function ('constructor'). Or, to assign an additional property to an existing object.
+
 ```
