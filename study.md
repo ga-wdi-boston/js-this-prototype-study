@@ -21,7 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use the this variable to refer back to the object that contains the function
+we use 'this' in.  It enables code to be less ambiguous so for example if in another
+part of the file, we created another variable with the same name, the function won't
+become confused as to which instance of the name we are referring to.
 ```
 
 ## This is what
@@ -30,7 +33,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+As an english major, thanks to that javascript is sexy article I will now always
+think of 'this' as the code version of a pronoun. So you use it within the same
+sentence (or object) to refer to something that has already been referenced/defined.
 ```
 
 ## A Prototype is what
@@ -39,5 +44,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype chain allows us to assign multiple levels of properties and methods
+to an object.  That way if we want to relate a new object back to parameters or
+properties we already defined, we can easily assign the new variable to the bottom
+of the prototype chain.
 ```
