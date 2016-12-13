@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason to use "this" is to encourage precision in our code by preventing errors resulting from referencing a global variable that might have already been declared.
+(Sources: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+http://www.w3schools.com/js/js_scope.asp)
 ```
 
 ## This is what
@@ -30,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a reserved JavaScript keyword that refers to the current object as a shortcut for referencing an intended variable.
+(Source:
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## A Prototype is what
@@ -39,5 +43,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a JavaScript object. It lets you implement inheritance- assigning properties to the prototype property in a function passes those properties to objects created in that function.
+(Sources:
+http://www.w3schools.com/js/js_object_prototypes.asp
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+)
 ```
