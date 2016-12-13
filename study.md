@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+To reference the object it is contained in and to specify that 'this.whatever' is _only_ referring to the object it's contained in, instead of potentially referencing another global variable with the same name (source: javascriptissexy.com).
 ```
 
 ## This is what
@@ -30,7 +30,11 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+features of 'this':
+-A way to be sure you're referencing the the thing the 'this' is inside. it contains the value of the object.
+-It is not set until the function it's in is invoked.
+-if it isn't in an object, it'll be assigned to the global scope (unless you're in 'use strict')
+(source: javascriptissexy)
 ```
 
 ## A Prototype is what
@@ -39,5 +43,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a parent object, all the objects you create will have features from the prototype. You can also assign new features to the prototype for objects to inherit. (javascriptissexy)
 ```
