@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" key word make code more clear(unambiguous) and easy to read. Relevant source: [JSIS: This](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" key word also refer to closest object that invoke this function. Relevant source: [JSIS: This](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+All objects property and methods inherit from their "parent" object property. This "parent" object is prototype.  Reference source: [JSIS: Prototype](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 ```
