@@ -21,7 +21,13 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!--We use this to mke code less ambiguous and to avoid repetitive code.
+
+Sources
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes
+
+https://forum.freecodecamp.com/c/wiki
+ -->
 ```
 
 ## This is what
@@ -30,7 +36,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- This is like a wrapper that is generated when a function is invoked. This
+wrapper holds all the info related to the function.-->
 ```
 
 ## A Prototype is what
@@ -39,5 +46,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- A prototype is a delegate that links objects.
+
+Sources
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md -->
 ```
