@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We could use 'this' to take on the value of an object we call on in a function
+
+(http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## This is what
@@ -30,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is a keyword we use in the place of an object so that our code doesn't get repetative
+
+(http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## A Prototype is what
@@ -39,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is like an invisable copy of an objects traits (properties and methods) thats gets passed down to another object that is using that prototype property what it is call on.
+
+(http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
