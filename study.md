@@ -21,7 +21,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+
+We use the this property in when a function utilizes this as a keyword in its body. This will have the value binded to
+a certain object in the call. The method used here will have all functions inheriting from Function.prototype through the call or apply process.
+
 ```
 
 ## This is what
@@ -30,7 +33,18 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The this property can be used in multiple ways.
+
+This is utilized when the function executes and it is considered to
+invoke the function as a variable with the value of the object.
+
+It is used outside of function when referencing global
+scope and used inside a function or a method. In
+global and anonymous functions that aren't tied to any
+object, this' value would undefined in strict mode.
+
+There isn't an assignment with this until an object invokes
+the function where this is defined.
 ```
 
 ## A Prototype is what
@@ -39,5 +53,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype property is empty by default and every JavaScript function has one. If you want to implement inheritance, you would attach properties and methods on this prototype property.
+
+
+In JavaScript, objects have a pointer to another object and that is the object's prototype (also known as the prototype object). JS will look through the prototype to find the key on an object if it isn't found through the object. Until a null value pops up, it will follow the prototype chain. So the return will remain undefined.
 ```
