@@ -21,7 +21,12 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use 'this' to prevent code from bugs: if we have to change all our code because we didn't use 'this' then we could miss an edit and the whole code goes boohoo.
+
+Source:
+I don't learn well from reading therefore I watch videos:
+https://www.youtube.com/watch?v=URVdQG96MUw&t=308s
+https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
 
 ## This is what
@@ -30,7 +35,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+For the purpose of your current knowledge in web dev and the fact that we currently always use 'use strict', most simply put, 'this' is a shortcut. It allows you to refer to a value of an object when calling a function.
+Source: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## A Prototype is what
