@@ -21,7 +21,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It's possible to have more than one variable with the same name (even if you're not aware of it). When this happens, it's useful to use "this" because it directs to the nearest variable with that name, rather than the global one.
+
+(from http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 ```
 
 ## This is what
@@ -30,7 +32,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" tells your javascript code to apply a method to the nearest Object environment. It saves you the trouble of renaming a variable or object repeatedly within the same object.
 ```
 
 ## A Prototype is what
@@ -39,5 +41,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a type of Object which gives its attributes and methods to a child class.
+So for example if you have an Object called Video_Game which has a method nextLevel(), an object built from that called RPG will also have nextLevel() as a method automatically.
 ```
