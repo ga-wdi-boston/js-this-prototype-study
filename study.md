@@ -21,7 +21,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use 'this' for precision, shortcut and for dry code.
+(I have used javascriptissexy)
 ```
 
 ## This is what
@@ -30,7 +31,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Depending on the where it is used, it refers to the value object that "this' exist. if it is used globaly, it will can cover everything in glob, however with the use of "strict", it will be undefined. On the other hand, when it is executed as a method of an object it addressed the value of the object.
+(I have used javascriptissexy)
 ```
 
 ## A Prototype is what
@@ -39,5 +41,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is facilitating developpers to interchange methods or properities of a function for another function or Object method for another Object.
+(I have used javascriptissexy)
 ```
