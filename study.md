@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- Prototype first allows other objects to inherit the properties of functions before them. So you don't nessecarily have to rewrite a function for different object statments. With a prototype, those objects can all call upon the origin function for the same purpose. This is similar to the parent trait of sudeo code. -->
 ```
