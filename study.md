@@ -21,7 +21,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'This' likes pronoun he in english, it represents the object in context. The purpose to use 'this' instead of the name of the object is to avoid the  same name objects in different scope is called unexpectedly.
 ```
 
 ## This is what
@@ -30,7 +30,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'This' is the shortcut of the object in which we are working the code. It likes 'he' in english.
 ```
 
 ## A Prototype is what
@@ -39,5 +39,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype can hold any properties and methods in order to be inherited by the instances objects. All Objects in JavaScript has prototype property and the defaul prototype is empty.
 ```
