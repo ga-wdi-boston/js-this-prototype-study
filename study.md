@@ -45,5 +45,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is an object of a function. All functions will have an object whether defined or not which will be the prototype. If a function has multiple objects, then all these objects will share the same prototype and it's properties. To access a prototype's property directly from the function it would be '.prototype' but from one of the other objects in the function it would be '.__proto__'. It is super useful as it works at run time which is why it is like a better tool than class.
+sources:
+https://www.youtube.com/watch?v=z19gt-wslCo&index=12&list=PLqq-6Pq4lTTaflXUL0v3TSm86nodn0c_u
+https://www.youtube.com/watch?v=F4GL4M3wmuw&list=PLqq-6Pq4lTTaflXUL0v3TSm86nodn0c_u&index=13
+https://www.youtube.com/watch?v=qUBcYdWlkz0&list=PLqq-6Pq4lTTaflXUL0v3TSm86nodn0c_u&index=14
 ```
