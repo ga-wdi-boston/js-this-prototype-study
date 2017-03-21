@@ -13,6 +13,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 -   [MDN: This](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 (only up to and including the "As a Constructor" section).
 -   [JSIS: This](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+-   [MDN: Prototype](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 -   [JSIS: Prototype](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 
 ## This in Context
