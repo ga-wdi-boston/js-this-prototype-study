@@ -22,7 +22,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Using 'this' within a method of an object can assure that you are referencing the correct object (i.e. the object containing the method). If you don't use 'this' but instead reference the object by name, you could potentially be referencing a global object of the same name.
+--source:  javascriptissexy.com
 ```
 
 ## This is what
@@ -31,7 +32,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is a keyword built into the JavaScript language; the 'this' keyword, used within a method of an object, references that invoking object by default, but can also be bound to other objects, such as the global window object, etc.. 'this' is both a shorthand way to reference and interact with an object as well as a way to be more precise and targeted with how we reference objects (i.e. see my response to first question above)
+--source:  mostly javascriptissexxy.com
 ```
 
 ## A Prototype is what
@@ -40,5 +42,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a property of an object, which allows you to create a chain of method and property inheritance between objects. You could, for example, add an abstracted method to some object (let's call it highLevelObject), such as a print method that performs a console log of passed arguments, and instead of having to re-create that method on future objects, you could simply have your new object inherit that print functionality by assigning a constructor of highLevelObject to the prototype property of your new object.
+--source:  primarily javascriptissexy.com
 ```
