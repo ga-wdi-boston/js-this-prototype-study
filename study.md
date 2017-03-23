@@ -22,7 +22,12 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One use would be to have the ability to change the context of a function. This
+is used to refer to something different than the scope its in. I would say
+the major reason to use it is if you need your variable to be dynamic.
+
+Resources: http://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work
+http://www.digital-web.com/articles/scope_in_javascript/
 ```
 
 ## This is what
@@ -31,8 +36,11 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+This is used refer to objects and functions that we are currently working
+with. It seems to be mostly about scope control. I've read that local variables
+will take precedence over those higher in the scope chain, so this allows us
+to control the variables at a local level.
+Same resources as above.```
 
 ## A Prototype is what
 
@@ -40,5 +48,9 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+Just like "this", an object's prototype is dynamic. Simply put, it acts as
+a template for objects to inherit certain traits. It appears that the
+parameters we list within functions act as prototypes. Defining the template
+can let you can use this
+to assign attributes to newly created objects as well.
+resources: http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/```
