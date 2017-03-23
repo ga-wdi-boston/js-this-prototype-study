@@ -23,6 +23,11 @@ sure to cite any relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+'This' would be use to help referencing and identifying the object that we are currently working on.  This helps us have specificity especially when we are borrowing a function from another object to apply it locally. It allows you to work on an object that may have a global variable conlict.
+
+
+http://www.digital-web.com/articles/scope_in_javascript/
+
 ```
 
 ## This is what
@@ -32,6 +37,11 @@ sure to cite any relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+'This' functions much like a pronoun.  It helps you reference something within a method or function on which you need to interact with.  It provides the context for which a function will be executed.
+
+
+The readings are very helpful
+https://rainsoft.io/gentle-explanation-of-this-in-javascript/
 ```
 
 ## A Prototype is what
@@ -41,4 +51,7 @@ sure to cite any relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+A Prototype is a method of inheritance in Javascript. Every object has a prototype applied to it that comes with it's on methods or properties.  Each object references it's parent prototype and if the method is not found in parent, it searches the parent's parents , etc. to find the method.
+
+http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 ```
