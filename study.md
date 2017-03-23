@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use "this" in functions when establishing the function we are able to refer to the element that the function works on.  Both sites discussing use of this were helpful.
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The best parallel sited is that it's like a pronoun is to a noun.  Rather than state object.element, we can say this.element.   It will work because the function (object) knows what elements we are working with.  Both sites discussing use of this were helpful.  Quite honestly I thought "this" was a lot less complicated than it is.   I look forward to getting a more in depth understanding over the next few weeks.
 ```
 
 ## A Prototype is what
@@ -40,5 +40,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype has properties and attributes that are inherited by any object and/or function that refers to the original object.  I get the concept of the prototype but definitely need more hands on working with it.
+I grabbed concepts from each but found the most JSIS site easier to follow.
 ```
