@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It makes the code clearer. When used inside of an object, it makes it clear that you are referring to the specific object that "this" is inside of rather than some other global object or variable that might have the same name. I used the JSIS reading for this answer.
 ```
 
 ## This is what
@@ -31,13 +31,12 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+In the JSIS reading, I learned that "this" is used to refer to an object. The object that it is referring to is different based on where the reference is located and how it is invoked.
 ```
 
 ## A Prototype is what
-
-In your own words explain what a prototype is.  In your answer, be
-sure to cite any relevant sources you consulted in your search.
+Based on the provided readings, it appears that a prototype is an object that other objects and functions can inherit properties and methods from. Each time a new object is created that inherits from a protoype object, then a prototype chain is created that
+shows how the inheritance occurred.
 
 ```md
 <!-- your answer here -->
