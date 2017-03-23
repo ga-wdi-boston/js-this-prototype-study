@@ -40,5 +40,10 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- template for creating functions that have built in functionality (framework for object oriented programming)-->
+<!-- template for creating functions that have built in functionality (framework for object oriented programming)
+
+
+these are tough concepts :)
+
+-->
 ```
