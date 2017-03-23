@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- "this" comes in handy when we can't control or decide what is calling the function but want to apply an operation, function, assignment to something-->
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- this is a short, ambiguous "pronoun" for referring to either a global value or local, depending on how it is called -->
 ```
 
 ## A Prototype is what
@@ -40,5 +40,10 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- template for creating functions that have built in functionality (framework for object oriented programming)
+
+
+these are tough concepts :)
+
+-->
 ```
