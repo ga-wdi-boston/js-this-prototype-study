@@ -22,7 +22,11 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this’ refers to the object which ‘owns’ the method, but it depends on how a function is called and it could change by the function.
+so we will use 'this' to store the current object.
+
+
+
 ```
 
 ## This is what
@@ -31,7 +35,10 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+ we use 'this' basicly to store an object and avoid repeating  unnecssary code.
+ depend on where you use 'this' it will store the object and pull out objects values in an easy way.
+
+i used JSIS and couple of youtube videos that show how to use 'this'
 ```
 
 ## A Prototype is what
@@ -40,5 +47,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+prototype is accessing properties and methods of objects
+it inherited properties were originally defined
+
+JSIS
 ```
