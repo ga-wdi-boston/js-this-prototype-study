@@ -22,7 +22,20 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use 'this' as a shortcut to reference a property. For example, when using
+dot notation for the object below instead of house.district we could use
+this.district.
+
+let house = {
+  address: '123 Main St',
+  county: 'King',
+  district: 'Western Washington'
+}
+
+I referenced the JSIS: This article as it provided a clear explanation using the
+"John is running fast because John is trying to catch the train" vs. "John is
+running fast because he is tring to catch the train". I felt this more clearly
+described this than the MDN: This article
 ```
 
 ## This is what
@@ -31,7 +44,42 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The 'this' keyword is used to refer to an object within the context of the
+object. For example, within the object below 'this' refers to the cat object.
+
+let cat = {
+  name: 'Garfield',
+  color: 'Orange',
+  age: 15,
+  test: function(){
+    console.log(this)
+  }
+}
+
+When we add another object with similar properties the 'this' within each object
+refers to that object. Below the output of test() will refer to the cat object
+whereas the output of test2() will refer to the dog object.
+
+let cat = {
+  name: 'Garfield',
+  color: 'Orange',
+  age: 15,
+  test: function(){
+    console.log(this)
+  }
+}
+let dog = {
+  name: 'Snoopy',
+  color: 'White',
+  age: 27,
+  test2: function(){
+    console.log(this)
+  }
+}
+
+I used the MSIS: This article as well as a video on YouTube -
+https://www.youtube.com/watch?v=yVdU2coJ1VQ that provied a high level
+explanation.
 ```
 
 ## A Prototype is what
@@ -40,5 +88,11 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is a property in JavaScript that relates to inheritance and how
+objects can inherit properties and methods from 'parent' objects. The prototype
+property allows for reuse and removes the need for each object to define its
+own properties and methods, instead it can borrow/inherit from a 'parent'.
+
+I referenced both articles listed above about prototype as well as the
+article shared in Slack - http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 ```
