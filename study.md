@@ -22,7 +22,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason would be to avoid confusion with variable names.  B/C this used inside of a function will not be confused with a variable of a similar name otuside the function you can be sure you're calling what what was intentend.
+
+This is from the MSDN, a specific use case they site
 ```
 
 ## This is what
@@ -31,7 +33,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+I like the analogy from the JSIS descripton, THIS is essentially a key word that references back to function/area the variable is being called.  Similar to a pronun refering back to a person in a sentance.
+
+It might be more specific to avoid using this, but as the code/objects got complicated THIS key words could avoid writing long strings to call variables from inside objects
 ```
 
 ## A Prototype is what
@@ -40,5 +44,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+It sets control the value of variablies/proprites between object based on their creation.
+
+The readings in the study
 ```
