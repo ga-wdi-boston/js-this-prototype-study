@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- Within a concept of context, 'this' refers to the object that is the subject in the context. Meaning whatever object is being processed during the function can be referenced as this. This' reaction will depend on the function we're trying to use. If it is not assigned to something, it will then refer back to the global meaning.-->
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- This is used as a referent in order to specify which object is being talked about. It allows us to be more precise within a function.  -->
 ```
 
 ## A Prototype is what
@@ -40,5 +40,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- Prototype first allows other objects to inherit the properties of functions before them. So you don't nessecarily have to rewrite a function for different object statments. With a prototype, those objects can all call upon the origin function for the same purpose. This is similar to the parent trait of sudeo code. -->
 ```
