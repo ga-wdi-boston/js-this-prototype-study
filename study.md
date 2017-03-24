@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We can use this within an object's function to prevent confusion which can happen when reusing the name of the object (JSIS).
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+this refers to an object's variable name within it's own function (JSIS)
 ```
 
 ## A Prototype is what
@@ -40,5 +40,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is an object which is a way to add a variable to a parent object. This enables you to amend the prototype variable so that it affects all parent objects whereas normally you could amend each instance's internal variables one at a time which is not always appropriate (JSIS + husband)
 ```
