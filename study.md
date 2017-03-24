@@ -22,7 +22,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" can remove ambiguity if there is a globally defined variable of the same name/label associated with the current code execution. By using "this" in a function, the referenced subject is well known and specific.
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## This is what
@@ -31,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" refers to the object in the executing code and only relevant when the context is appropriate.
+
+I found http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/ useful
 ```
 
 ## A Prototype is what
@@ -40,5 +43,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype allows someone to attach properties and methods to an object for later use by other objects. Usually, an object's prototype is not defined and must be done explicity. But once a prototype is defined, it is accessible to any other object that interacts with the prototyped object.
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
