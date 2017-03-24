@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+According the the blog post linked in the readme, "this" is used for aesthetic reasons but primarily is used to avoid scope errors because variables might have the same names
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is a property of objects that, while it behaves in a number of different ways depending on context, is used by a function to reference the object it is a part of. (Source: MDN)
 ```
 
 ## A Prototype is what
@@ -40,5 +40,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is essentially a generic version of an object which can be used to more quickly construct new objects that share a number of properties.
+
+It also allows for methods to be defined and passed to all objects created from that prototype, rather than rewriting the method each time.
 ```
