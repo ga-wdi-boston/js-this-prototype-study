@@ -21,24 +21,24 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
-```md
-<!-- your answer here -->
-```
+My understanding of the use of 'this' in JS (I'm still a little confused about it), is that 'this' is sued to store values to a function.
+
+Sources used were the assigned readings, http://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work, and funfunfunction channel on youTube.
 
 ## This is what
 
 In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
-```md
-<!-- your answer here -->
-```
+We use 'this' as a special keyword, to refer back to the object in context. It helps to make our coding more precise.
+
+Sources used were the assigned readings, and funfunfunction channel on youTube.
 
 ## A Prototype is what
 
 In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
-```md
-<!-- your answer here -->
-```
+A prototype is basically an internal property of an object, that is linked to another object.
+
+Sources used were the assigned readings, and http://stackoverflow.com/questions/572897/how-does-javascript-prototype-work
