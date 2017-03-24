@@ -22,7 +22,14 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is handily used as an event handler as we did in the pre-work. By using it
+in the context of a fuction, each time the function is called this refers to
+the object that called it, i.e. the card clicked. In this way we can add our
+function to multiple objects. I got some good practice with these concepts
+as initally I had my code written in a manner that caused this to call a global
+object. After some debugging and some console.log writes I realized this was the
+case. I ultimatley figured out to put the this call within the scope of my function
+and my code began to work as intended.
 ```
 
 ## This is what
@@ -31,7 +38,12 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The Javascript is sexy article explains this in the context of pronouns. In
+otherwords, this takes the place of an object and is dependent on it's use case.
+Use case is dictated by a number of factors including use of strict or non-strict
+code. Additionally, this can be configured to hold certain values inherintly
+regardless of its scope of useage as is explains in the sections regarding the
+bind function from the MDN article.
 ```
 
 ## A Prototype is what
@@ -40,5 +52,15 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+The easiest way to explain prototypes is via inheritance. Each object is the child
+of another parent object. Each time a new object is instantiated it gets all the
+traits or more specifically methods and properties of its parent object, plus any
+new ones that are written in. This continues for each new object instantiated. I
+tend to think of these sorts of inhertiance in the context of the overhead
+projector slides we used to have in clase. With the bottom layer representing
+the parent object and each new object as a layer on top of that, building from the
+bottom up. The MDN articles shows this as a series of parent objects and children.
+An exmple would be a string object using the method split. This is predfined and
+inherited from its parent. You need not write this code as it is inherited when
+the object is created. 
 ```
