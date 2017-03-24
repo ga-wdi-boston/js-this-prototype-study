@@ -22,7 +22,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Provides shortcut to the object that called it.
+
+sources:
+https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
 
 ## This is what
@@ -31,7 +34,10 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" refers to the current object that called it and stores all of the current object's values/methods. Example, "WDI is the course, and it is HARD", with "WDI" being the object and "it" being the keyword "this" referring back to it.
+
+sources:
+https://www.youtube.com/watch?v=yVdU2coJ1VQ
 ```
 
 ## A Prototype is what
@@ -40,5 +46,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype provide properties and methods to variables that are created by the specified prototype. Example, let obj = {}; the variable "obj" will have all of the properties and methods of the Object prototype.
+
+sources:
+https://www.youtube.com/watch?v=riDVvXZ_Kb4
 ```
