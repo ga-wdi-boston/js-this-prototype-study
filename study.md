@@ -22,8 +22,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
-```
+'this' helps make the code less ambiguous. It makes clear which object is being referenced in a function.
+
+souce: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+'```
 
 ## This is what
 
@@ -31,7 +33,20 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is a keyword that refers to the subject of the executing code. If we were to define an object called 'food', it could look like the following:
+
+const food = {
+  init: function(type) {
+    food.type = type
+  }
+  eat: function() {
+    console.log('you ate the ' + this.type)
+  }
+}
+
+food.type (line 40) is effectively achieving the same result as this.type (line 43). However, this.type can only be referencing the object to which it belongs (food). This adds more clarity to the code.
+
+Source: https://www.youtube.com/watch?v=riDVvXZ_Kb4
 ```
 
 ## A Prototype is what
@@ -40,5 +55,12 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototypes are template objects. The methods and properties in these objects can be applied to other objects.
+
+Let's say we define an object called Food. Then, we define an object called Waffle that is created from the prototype Food. Waffle is going to inherit all of the properties/methods from Food. If Waffle does not have a certain property/method, it will fall back to Food and see if that object has the property/method. If Food does have the property/method, Waffle will use that one.
+
+Sources: 
+https://www.youtube.com/watch?v=riDVvXZ_Kb4
+
+http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 ```
