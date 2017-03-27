@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'This' is a way to refer to an object using a shorthand. This is useful because we can refer back to whatever the object "this" has been assigned to not only that but it will also refer to an object's value.
 ```
 
 ## This is what
@@ -31,7 +31,17 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is shorthand for refering to the object or function calling 'this'. so for example if I wanted to create a person object like:
+let person = {
+  firstName: 'Dara';
+  lastName: 'Hoy';
+  showFullName () {
+  console.log(this.firstName' ' + this.lastName);//would give Dara Hoy
+  }
+}
+you can see that by invoking 'this' it refers to the data (first and last name) of the object where it was called.
+
+"...this similar to the way we use pronouns in natural languages like English and French. We write, “John is running fast because he is trying to catch the train.”" http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## A Prototype is what
@@ -40,5 +50,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype refers to the attributes of an object that was inherited from its parent object. This can be used to create instances of objects that draws from the properties of its aprent object.
+
 ```
