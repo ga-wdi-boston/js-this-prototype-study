@@ -21,9 +21,14 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
+
 ```md
-<!-- your answer here -->
-```
+My Answer:
+Primary reasons "this" is used
+  For aesthetics - the way we insert pronouns in sentences instead of repeating someone's proper name in that sentence.
+  For precision - to avoid amibiguity.
+
+  My source was JSIS.```
 
 ## This is what
 
@@ -31,7 +36,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+My understanding of "this" is that is a keyword used athe s a shortcut reference to an object. It is a variable that holds the value of the object that invokes the function where it is used and can access methods and properties of the object.
+
+I also understand that there are exceptions to that general rule and work-arounds for them such as bind, apply, call and setting "this" as a variable, however, I do not fully understand those exceptions...yet!
 ```
 
 ## A Prototype is what
@@ -40,5 +47,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+My understanding of a prototype is that it is used for inheritance. It acts as a pointer to the object's parent and inherits its properties and methods. I learned, in JSIS, that Javascript does not have "classical inheritance based on Classes" and all inheritance is possible through the prototype property.
+
+The prototype attribute (aka prototype object) creates a "prototype chain" (like a lineage tree) which can look for properties and methods of an object until it doesn't find any more.
 ```
