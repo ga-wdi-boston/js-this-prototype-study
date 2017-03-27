@@ -1,6 +1,6 @@
 # This and Prototype Study
 
-Use your favorite search engine and the provided readings to research and
+Use Google and the provided readings to research and
 respond to the following questions.
 
 In your responses, be sure to cite any relevant sources you consulted in your
@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use 'this' to remove confusion about from which level of scope the variable we are referring to comes from. Without this debugging would involve knowing every variable in the global scope.
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This refers to the object calling the function within the current scope. In the global scope if 'use strict' is on, 'this' is undefined, and if 'use strict' is off, I do not have a good understanding. My understanding mostly comes from the second link, I found the first confusing due to the lack of real world examples, which the second provides.
 ```
 
 ## A Prototype is what
@@ -40,5 +40,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+If we assign properties to the prototype of an object we can create a new object with these inherited properties without repeating unnecessary code. Sources are the link provided and then my wife for further clarification.
 ```
