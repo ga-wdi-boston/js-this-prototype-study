@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+One reason we use 'this' is so that an object, especially in an array of identical objects, can call a method on itself or access one of its own attributes without requiring external references. (source = class notes)
 ```
 
 ## This is what
@@ -31,7 +31,7 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is the way an object generically self-references it own properties and differentiates itself from other objects without needing to know the identity of any of the objects. (source = class notes)
 ```
 
 ## A Prototype is what
@@ -40,5 +40,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is an object that defines the attributes and methods that make up an object type. Each instance of an object is based on the properties defined by its prototype constructor. (source = MDN)
 ```
