@@ -22,7 +22,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We use "this" to make our code more precise. When you use the variable's name (e.g. person.name instead of this.name), there could be another global with the same name. The use of 'this' makes our code less ambiguous.
+I consulted javascriptissexy.com for this answer - they made a very useful analogy - comparing "this" to using pronouns.
 ```
 
 ## This is what
@@ -31,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is used to refer to an object, and is used as a shortcut to make code more elegant and precise. What "this" is depends heavily on the context.
+
+I used mainly javascriptissexy.com for my answer. Found this source much easier to understand.
 ```
 
 ## A Prototype is what
@@ -40,5 +43,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+In Javascript, every object and function has a prototype, and this prototype is used for inheritance (for the most part). For example, if you create a function creature() - every time you make a new instance of creature (let aCreature = new Creature()), this new instance, which also has a prototype, inherits the prototype from the first one.
+
+Again, I used mainly javascriptissexy.com for my answer.
 ```
