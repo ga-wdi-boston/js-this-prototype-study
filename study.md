@@ -22,7 +22,8 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This allows for us to pass values from object to object and to use anonymous
+functions and constructor functions.
 ```
 
 ## This is what
@@ -31,7 +32,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is a property of every object we create that gets initiated when a function
+calls it. It is undefined at global scope and belongs to the object that initiates
+it.
 ```
 
 ## A Prototype is what
@@ -40,5 +43,6 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A prototype is another invisible propery of every created object that is used to
+pass values and control inheritance in objects. 
 ```
