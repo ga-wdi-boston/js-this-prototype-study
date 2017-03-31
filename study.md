@@ -22,7 +22,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+A reason to use t..his is when a function uses the syntax, the user will be able to use the .call to bound an object.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this call and apply section
 ```
 
 ## This is what
@@ -31,7 +33,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+T..his is a syntax that ALWAYS refers to and holds the value of an object. It is usually used inside a function or method and can also be used outside the function in the global scope.
+
+http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## A Prototype is what
@@ -40,5 +44,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is an attribute that is attached with a property and method when a user wants to implement inheritance , also it is an attribute that points to the object's parent.
 ```
