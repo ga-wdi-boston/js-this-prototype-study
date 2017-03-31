@@ -31,7 +31,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- THIS when used in an object is referring to the object itself. THIS when used in a function is referring to the object that OWNS that function.
+I used resources provided, along with w3schools as sources of reference. -->
 ```
 
 ## A Prototype is what
@@ -40,5 +41,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- A prototype is the direct parent object of an object. I used JSIS as the main resource for an understanding of this item.-->
 ```
