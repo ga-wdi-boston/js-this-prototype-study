@@ -22,7 +22,14 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is an element that we use to make our code more clear an easy to read (or
+less ambiguos). It should be used to refer to something previously declared in
+the code and call that element again.
+
+source: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+/* note for future reference:
+the noun example in this article was really helpfull
+*/
 ```
 
 ## This is what
@@ -31,7 +38,11 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"this" is a property of a function, that holds the value of an object. Whenever
+you use this in a function it is going to get the value of a variable previously
+declared.
+
+source: http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 ```
 
 ## A Prototype is what
@@ -40,5 +51,7 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is a set of attributes that a new object will inherit from its 'parent'.
+
+source: http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
 ```
