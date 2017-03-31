@@ -22,7 +22,11 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+< we would use 'this' as a shortcut when coding a function/method in an object
+so that we can invoke the object.
+
+I used the javascript is sexy site to find this information.
+ -->
 ```
 
 ## This is what
@@ -31,7 +35,13 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+'this' is used as a shortcut to refer to an object and also contains the value
+of an object. it is typically used inside of a function or a method. On a
+global scale, it makes code more unambiguous, meaning that there will be less
+bugs in the long run.
+
+I retrieved/retained most of the information about "this" from the
+javascript is sexy website. I feel that it explained the concepts better.
 ```
 
 ## A Prototype is what
@@ -40,5 +50,11 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- Prototypes are the way that objects inherit features from one another.
+Those features can be properties and methods. They can include prototype objects
+which start a prototype chain. These chains explain why different objects have
+features that are defined on OTHER objects that are available to them.
+
+I got this information from both the mozilla and javascript is sexy sites.
+I also referenced the notes that I took from the readings.-->
 ```
