@@ -23,6 +23,12 @@ sure to cite any relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+"This" keyword makes our code more precise. For example, if we use car.model
+and also have a global variable "car", this could lead to confusion. I used
+the second article in the required reading (JSIS). The analogy that compares
+"this" to pronouns was useful in understanding the benefits of using the
+keyword.
+
 ```
 
 ## This is what
@@ -31,7 +37,8 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+"This" is a shortcut that allows you to refer to different elements depending on context. For example, when used inside an object method, "this" refers to the immediate parent object, but when used inside a global function, "this" refers
+to the window object. I used the second article in the required reading (JSIS) for my answer.
 ```
 
 ## A Prototype is what
@@ -40,5 +47,5 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototypes are objects and functions from which other objects inherit properties and methods. Since every object has a prototype property, all objects inherit properties from their prototypes. I used the online resource w3schools to help m answer.
 ```
