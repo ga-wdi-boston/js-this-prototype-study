@@ -22,7 +22,7 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- THIS can be used as an object method, which allows the object to do a certain action, or function, when the function is called from that object.-->
 ```
 
 ## This is what
