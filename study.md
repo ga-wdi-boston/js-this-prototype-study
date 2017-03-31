@@ -22,7 +22,9 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+We assign 'this' property as 'this' is a variable with the value of the object that invokes the function where it is used.
+
+I used javascriptissexy mainly.
 ```
 
 ## This is what
@@ -31,7 +33,9 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+This is the object that owns the function, when used in a function.
+
+I used w3schools and provided readings.
 ```
 
 ## A Prototype is what
@@ -40,5 +44,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Every javascript function has a prototype property.  This is empty until you attach properties to it.  This is used when you want other objects to inherit the same property.  This is also used to point to the "parent" object that it inherited its
+attribute from.
+
+I used javascriptis sexy for reference.
 ```
