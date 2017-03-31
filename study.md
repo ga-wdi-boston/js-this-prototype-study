@@ -22,7 +22,10 @@ In your own words, explain one reason why we use "this". In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+In global execution context, "this" refers to the global object, so in the browser it refers to the window object.
+The window object is the open window in the browser and important to intract with.
+
+source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 ```
 
 ## This is what
@@ -31,7 +34,13 @@ In your own words explain "this".  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+
+"This" is a self-referential tool to use with objects. Its value is based on context, scope, execution sequences,
+and special commands to directly influence its value. The Javascript interpreter is always keeping track of "this"
+and the value it references.
+
+http://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work
+http://www.digital-web.com/articles/scope_in_javascript/
 ```
 
 ## A Prototype is what
@@ -40,5 +49,8 @@ In your own words explain what a prototype is.  In your answer, be
 sure to cite any relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Prototype is an object property of an object where you define members that can be inherited.
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+
 ```
